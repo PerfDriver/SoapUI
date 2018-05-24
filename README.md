@@ -16,7 +16,7 @@ This extension can be used to run SoapUI script or to make SoapUI available for 
   - This will create an environment variable called SOAPUI_EXE that you can use in the following tasks.
 
 
-In both tasks, SoapUI will be downloaded the first time the task is called from https://s3.amazonaws.com/downloads.eviware/soapuios/5.4.0/SoapUI-5.4.0-windows-bin.zip
+In both tasks, SoapUI will be downloaded the first time the task is called from https://ajeetgithub.blob.core.windows.net/soupui/SoapUI-5.4.0-windows-bin.zip
 The next call will simply use the downloaded file without re downloading it.
 
 For Hosted Agents, SoapUI will be downloaded each time the task is called.

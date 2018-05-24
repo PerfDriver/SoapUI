@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "soapui-tasks",
-    "name": "SoapUI Tasks",
-    "version": "0.1.1",
+    "id": "soapui",
+    "name": "SoapUI Test Task",
+    "version": "0.1.10",
     "publisher": "AjeetChouksey",
 	"public": true,
     "icons": {
@@ -24,6 +24,10 @@
             "description": "VSTS Build Status"
         }
     ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/AjeetChouksey/SoapUI"
+    },
 	"content": {
         "details": {
             "path": "readme.md"
@@ -32,6 +36,9 @@
             "path": "license"
         }
     },
+    "galleryFlags": [
+        "Preview"
+    ],
     "files": [
         {
           "path": "SoapUI"
@@ -42,7 +49,7 @@
     ],
     "contributions": [
         {
-            "id": "a358a983-98f4-425c-8079-65a9a6e85419",
+            "id": "12f07873-6fb0-4b8f-bce7-1d085d8760e6",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
@@ -52,7 +59,7 @@
             }
         },
         {
-            "id": "288c76e9-57db-4556-b38e-bb66997e7c8c",
+            "id": "1fd068ca-e2d7-45b8-a5a7-51b4e22665d6",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
